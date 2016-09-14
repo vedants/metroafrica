@@ -1,0 +1,38 @@
+# Site settings
+title: Metro Africa
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:3000" # the base hostname & protocol for your site
+
+# User settings
+username: vedants
+user_description: 
+email: 
+twitter_username: 
+disqus_username:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: About
+    url: /about
+
+# exclude node related stuff
+exclude: ['package.json', 'src', 'node_modules']
